@@ -1,12 +1,12 @@
 {
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Skill and Plugin Manager — install AI-agent skills into every coding agent.",
   "homepage": "https://github.com/hiadamhere/spm",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/hiadamhere/spm/releases/download/v0.3.5/spm-0.3.5-win-x64.zip",
-      "hash": "8aee3093d2a2df49ab27ed077a9d072974e9d1fe1e92443ceb408550eddbc4d0"
+      "url": "https://github.com/hiadamhere/spm/releases/download/v0.3.6/spm-0.3.6-win-x64.zip",
+      "hash": "8a24870c35a3d8d7de9eb3452c2b7ec01f03f078f08c893bb1118d25496b25bb"
     }
   },
   "bin": "spm.exe",
