@@ -12,6 +12,17 @@ scoop install spm
 
 Update with `scoop update spm`.
 
+## Team catalogs
+
+spm installs skills from **catalogs** — Git repos indexed by a `catalog.json`. Publish one for your
+team (internal repos included) and a single import subscribes every developer to the same skills:
+
+```sh
+spm catalog import https://intranet.example/catalog.json   # your team's index
+spm catalog import                                          # spm's featured index
+spm catalog sync && spm list
+```
+
 ## What's here
 
 A single manifest, `bucket/spm.json`, that downloads the self-contained `spm.exe` for Windows (x64)
