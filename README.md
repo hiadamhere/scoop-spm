@@ -12,6 +12,12 @@ scoop install spm
 
 Update with `scoop update spm`.
 
+spm is also on **winget**, if you'd rather not add a bucket:
+
+```sh
+winget install hiadamhere.spm
+```
+
 ## Team catalogs
 
 spm installs skills from **catalogs** — Git repos indexed by a `catalog.json`. Publish one for your
